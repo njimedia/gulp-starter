@@ -6,4 +6,4 @@ if (typeof require === 'function') {
   Sample = require('modules/sample');
 }
 
-console.log(Sample);
+console.log(Sample + " and this");

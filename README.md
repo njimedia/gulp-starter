@@ -2,6 +2,12 @@
 
 Starter `gulp` set up. Includes common tasks needed for any project. This project assumes you have previously installed node. If you haven't then check out [nodejs.org](http://nodejs.org/) for instructions.
 
+#### What tasks are included:
+
+1. Creating svg sprites with png backups `gulp sprite`
+2. Compiling scss `gulp` or `gulp sass`
+3. Compiling browserified javascript `gulp` or `gulp browserify`
+
 ## Install npm dependencies
 
 The `package.json` file contains all the information to download all necessary node modules dependencies into a `node_modules` directory. (**note**: you must have node installed on your computer)
