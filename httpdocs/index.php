@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 9]><html class="lte-ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <title>Gulp Starter</title>
@@ -20,6 +21,9 @@
 </head>
 <body>
   <h1>Hello Gulp!</h1>
+  <span class="icon -twitter"></span>
+  <span class="icon -instagram"></span>
+  <span class="icon -dribbble"></span>
   <script src="/assets/js/main.js" type="text/javascript"></script>
 </body>
 </html>

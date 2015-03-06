@@ -3,7 +3,19 @@
  */
 
 body {
+  font-family: sans-serif;
   background: #f5f5f5;
-  @include sprite($dribbble);
   color: #2d2d2d;
+  .icon.-twitter {
+    display: block;
+    @include sprite($twitter);
+  }
+  .icon.-instagram {
+    display: block;
+    @include sprite($instagram);
+  }
+  .icon.-dribbble {
+    display: block;
+    @include sprite($dribbble);
+  }
 }
