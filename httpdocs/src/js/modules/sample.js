@@ -1,1 +1,1 @@
-module.exports = "Sample says this!";
+module.exports = 1;
