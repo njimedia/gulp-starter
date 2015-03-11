@@ -22,9 +22,9 @@ gulp.task('browserify', function () {
 
       b = browserify(filename, {
         cache: {},
-        packageCache: {},
+        packageCache: {}
         // fullPaths: true,
-        paths: bundleConfig.paths
+        // paths: bundleConfig.paths
       });
 
       b = watchify(b);
