@@ -13,7 +13,7 @@ module.exports = {
       entry: src + '/js/app.js',
       outputName: 'main.js',
       dest: dest + '/js',
-      paths: [
+      paths: [ // can't use these because karma-browserify doesn't support it...
         './node_modules',
         './httpdocs/src/js'
       ]

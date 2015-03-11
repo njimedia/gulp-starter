@@ -3,7 +3,7 @@
 var Sample;
 
 if (typeof require === 'function') {
-  Sample = require('modules/sample');
+  Sample = require('./modules/sample');
 }
 
-console.log(Sample);
+console.log(Sample.myfun());
