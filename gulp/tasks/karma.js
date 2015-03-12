@@ -1,6 +1,5 @@
 var gulp = require('gulp'),
-    karma = require('karma').server,
-    kconfig = require('../../karma.conf.js');
+    karma = require('karma').server;
 
 /**
  * Run test once and exit
@@ -14,6 +13,6 @@ var karmaTask = function (done) {
   });
 };
 
-gulp.task('test', karmaTask);
+gulp.task('karma', karmaTask);
 
 module.exports = karmaTask;

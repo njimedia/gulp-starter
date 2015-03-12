@@ -6,4 +6,5 @@ if (typeof require === 'function') {
   Sample = require('./modules/sample');
 }
 
-console.log(Sample.myfun());
+
+console.log(Sample.one); // 1
