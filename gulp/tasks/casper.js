@@ -8,11 +8,17 @@ gulp.task('casper', function () {
   /**
    * what does spawn do?
    */
+  // var casperChild = spawn('casperjs', ['test', '--auto-exit=no'].concat(tests));
   var casperChild = spawn('casperjs', ['test'].concat(tests));
+
+  // if you don't want to capture the standard out yourself...
+  // var casperChild = spawn('casperjs', ['test'].concat(tests), {
+  //   stdio: 'inherit'
+  // });
 
 
   /**
-   * what does this do? i think it logs out to the console...
+   * Listens to data coming in from stdout of the test scripts
    */
   casperChild.stdout.on('data', function (data) {
     gutil.log('CasperJS:', data.toString().slice(0, -1)); // Remove \n

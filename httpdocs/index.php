@@ -21,6 +21,7 @@
 </head>
 <body>
   <h1>Hello Gulp!</h1>
+  <p>Adding something for the screen shot!</p>
   <span class="icon -twitter"></span>
   <span class="icon -instagram"></span>
   <span class="icon -dribbble"></span>
