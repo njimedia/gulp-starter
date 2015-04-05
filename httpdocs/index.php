@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 9]><html class="lte-ie9" lang="en"><![endif]-->
+<!--[if lt IE 9]><html class="lt-ie9" lang="en"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
